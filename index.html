@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nouf Alshehri portfolio, a front-end engineer and UX/UI and graphic designer"
+    />
+    <title>
+      Nouf Alshehri Software Engineer، UI/UX Designer, and Graphics Designer
+    </title>
+    <link rel="icon" href="images/logo.svg" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <!-- navigation bar -->
+      <section class="nav-bar d-flex justify-content-between">
+        <img src="images/logo.svg" alt="Nouf logo" />
+        <a href="javascript:void(0);" onclick="showMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </section>
+    </section>
+    <!-- menu offset -->
+    <section style="height: 70px"></section>
+
+    <!-- menu links -->
+    <section id="nav-links">
+      <a href="#"><h5>Home</h5></a>
+      <a href="#skills"><h5>Skills</h5></a>
+      <details>
+        <summary>
+          <h5 style="display: inline">Projects</h5>
+        </summary>
+        <a href="html/software-engineering-projects.html" target="_blank"
+          ><h5>Software Engineering</h5></a
+        >
+        <a href="html/ux-design-projects.html" target="_blank"
+          ><h5>UI/UX Designens</h5></a
+        >
+        <a href="html/graphic-design-projects.html" target="_blank"
+          ><h5>Graphics Designs</h5></a
+        >
+        <a href="html/videos.html" target="_blank"><h5>Videos</h5></a>
+      </details>
+      <a href="#footer"><h5>Contact</h5></a>
+    </section>
+    <!-- header -->
+    <header class="header">
+      <section class="header__title">
+        <h3>
+          Software Engineer، <br />
+          UI/UX Designer, <br />
+          and Graphics Designer
+        </h3>
+      </section>
+
+      <section class="header__img d-flex justify-content-center">
+        <img src="images/emoji.svg" alt="emoji" />
+      </section>
+
+      <section class="header__description">
+        <p>
+          Hi, I’m Nouf Alshehri. Nice to meet you. I started my journey with
+          programming and design since 2016, I enjoy coding things from scratch
+          and bringing ideas to life. Constantly working to improve my skills
+          and produce beneficial stuff for the world.
+        </p>
+      </section>
+    </header>
+    <section class="container">
+      <!-- skills section -->
+      <section class="skills" id="skills">
+        <section class="SE-center-section d-flex justify-content-center">
+          <section class="skill-SE">
+            <img src="images/SE-logo.svg" alt="software engineering logo" />
+            <h3>Software Engineer</h3>
+            <p>
+              Plan, design the structure, and execute Is the process I love to
+              follow before any project.
+            </p>
+            <p class="tools">Programming languages & Tools:</p>
+            <ul>
+              <li>
+                Front-end development (React JS, HTML, CSS, JavaScript,
+                Bootstrap, Sass, webpack)
+              </li>
+              <li>Programming (Java, C#)</li>
+              <li>SQL</li>
+            </ul>
+            <hr />
+          </section>
+        </section>
+        <section class="design-center-section d-flex justify-content-center">
+          <section class="skill-Design">
+            <img src="images/design-logo.svg" alt="design logo" />
+            <h3>Designer</h3>
+            <p>
+              Design has always been an interest of mine, and I need it in all
+              the digital projects I work on.
+            </p>
+            <p class="tools">Tools:</p>
+            <ul>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Adobe Premiere</li>
+            </ul>
+            <hr />
+          </section>
+        </section>
+        <section class="UX-center-section d-flex justify-content-center">
+          <section class="skill-UX">
+            <img src="images/UX-logo.svg" alt="user experience design logo" />
+            <h3>UI/UX designer</h3>
+            <p>
+              UX design is a very big step before developing, before getting to
+              it I didn’t expect it was as strategic as it is, and UI is what
+              makes it all producible.
+            </p>
+            <p class="tools">Tools:</p>
+            <ul>
+              <li>Adobe XD</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+
+      <button
+        class="top-btn"
+        onclick='window.scrollTo({top: 0, behavior: "smooth"});'
+      >
+        <i class="fas fa-chevron-up"></i>
+      </button>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div>
+        <p>Learning every single day, <br />To make a change!</p>
+        <a href="mailto:NoufAllshehri@gmail.com" target="_blank"
+          ><img src="images/email.svg" alt="email"
+        /></a>
+        <a href="https://twitter.com/_alnouf" target="_blank"
+          ><img src="images/twitter.svg" alt="twitter"
+        /></a>
+        <a href="https://www.linkedin.com/in/noufallshehri/" target="_blank"
+          ><img src="images/linkedin.svg" alt="linkedin"
+        /></a>
+      </div>
+    </footer>
+
+    <script>
+      function showMenu() {
+        var x = document.getElementById("nav-links");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>

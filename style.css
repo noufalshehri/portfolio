@@ -1,0 +1,404 @@
+body {
+  margin-top: 10px;
+  font-family: "Tajawal", sans-serif;
+}
+/*  */
+/* navigation bar */
+/*  */
+.nav-bar {
+  background-color: #fff;
+  position: fixed;
+  width: 95%;
+  padding: 10px 25px;
+  border-radius: 26px;
+  z-index: 100;
+}
+/*  */
+.nav-bar a {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-decoration: none;
+}
+.nav-bar a i {
+  color: #f5cb5c;
+  font-size: 1.5em;
+}
+#nav-links {
+  background-color: #fff;
+  color: #005b83;
+  text-align: center;
+  display: none;
+  -webkit-box-shadow: 0 8px 6px -6px #f5cb5c;
+  -moz-box-shadow: 0 8px 6px -6px #f5cb5c;
+  box-shadow: 0 8px 6px -6px #f5cb5c;
+  margin-bottom: 30px;
+  position: fixed;
+  width: 100%;
+  margin-top: -15px;
+  z-index: 100;
+}
+#nav-links a {
+  color: #005b83;
+  text-decoration: none;
+}
+/*  */
+/* header */
+/*  */
+.header .header__title {
+  color: #005b83;
+  text-align: center;
+}
+.header__img {
+  margin-bottom: -40px;
+}
+.header__img img {
+  width: 35%;
+}
+.header__description {
+  background-color: #f5cb5c;
+  text-align: justify;
+  padding: 20px;
+  font-size: 1.2em;
+  padding-top: 60px;
+  z-index: -1;
+  height: 300px;
+}
+
+/*  */
+/* skills section */
+/*  */
+.skills {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-top: 40px;
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin-top: -25px;
+}
+.skill-SE,
+.skill-Design,
+.skill-UX {
+  text-align: center;
+  width: 80%;
+}
+.skill-SE ul li,
+.skill-Design ul li,
+.skill-UX ul li,
+.skill-SE p,
+.skill-Design p,
+.skill-UX p {
+  text-align: justify;
+  font-size: 1.1em;
+}
+.skill-SE h3,
+.skill-Design h3,
+.skill-UX h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #fabf46;
+}
+.skill-SE img,
+.skill-Design img,
+.skill-UX img {
+  width: 90px;
+}
+.tools {
+  color: #005b83;
+  font-size: 1.5em !important;
+  font-weight: 500;
+}
+
+/*  */
+/* projects section */
+/*  */
+.projects {
+  text-align: center;
+  margin-top: 40px;
+}
+.projects h2 {
+  color: #fabf46;
+}
+.projects-title {
+  color: #005b83;
+  font-size: 1.5em;
+  text-align: center;
+}
+.overlay {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.overlay-under p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.overlay-under {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-image: url("images/alla-altayer.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: -250px;
+  opacity: 0%;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay-under:hover {
+  background-image: url("");
+  opacity: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.links-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.links-background {
+  display: inline;
+  width: 20px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.links-background:hover {
+  background-color: #fff;
+}
+.links-background a i {
+  font-size: 1.6em;
+  color: #fff;
+}
+.links-background a i:hover {
+  color: #fabf46;
+}
+.links-background a {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.project {
+  height: 300px;
+}
+.top-btn {
+  position: fixed;
+  right: 10%;
+  bottom: 5%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+.top-btn i {
+  font-size: 1.5em;
+  color: #005b83;
+}
+footer {
+  background-color: #f5cb5c;
+  border-top: 2px solid #005b83;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #005b83;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+/******media queries******/
+
+/* Large Screens */
+@media (min-width: 901px) {
+  .nav-bar {
+    width: 77%;
+  }
+  .header__img img {
+    width: 25%;
+  }
+  .header__description {
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-top: 100px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+  }
+  .header__description p {
+    width: 80%;
+    text-align: center;
+  }
+  .header__img {
+    margin-bottom: -70px;
+  }
+  .header__title {
+    margin-top: 15%;
+    margin-bottom: 40px;
+  }
+  .header__title h3 {
+    font-size: 1.9em;
+  }
+  /* nav-bar */
+  .nav-bar img {
+    width: 6%;
+  }
+  .nav-bar a i {
+    font-size: 2.3em;
+  }
+  #nav-links {
+    margin-top: 0px;
+  }
+  /* skills section */
+  .skill-SE ul li,
+  .skill-Design ul li,
+  .skill-UX ul li,
+  .skill-SE p,
+  .skill-Design p,
+  .skill-UX p {
+    font-size: 1.4em;
+  }
+  .skill-SE h3,
+  .skill-Design h3,
+  .skill-UX h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 2em;
+  }
+  .skill-SE img,
+  .skill-Design img,
+  .skill-UX img {
+    width: 120px;
+  }
+  footer {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer div p {
+    font-size: 1.4em;
+  }
+  footer div a img {
+    width: 50px;
+  }
+
+  /* projects */
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .project {
+    width: 30%;
+    margin-right: 25px;
+  }
+  .projects-title {
+    margin-top: 20px;
+  }
+  .skills {
+    margin-top: -70px;
+  }
+}
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 900px) {
+  .nav-bar {
+    width: 80%;
+  }
+  .header__img img {
+    width: 25%;
+  }
+  .header__description {
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-top: 80px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+  }
+  .header__description p {
+    width: 80%;
+    text-align: center;
+  }
+  .header__img {
+    margin-bottom: -70px;
+  }
+  .header__title {
+    margin-top: 15%;
+    margin-bottom: 40px;
+  }
+  .header__title h3 {
+    font-size: 1.9em;
+  }
+  /* nav-bar */
+  .nav-bar img {
+    width: 8.5%;
+  }
+  .nav-bar a i {
+    font-size: 2.3em;
+  }
+  #nav-links {
+    margin-top: 0px;
+  }
+  /* skills section */
+  .skill-SE ul li,
+  .skill-Design ul li,
+  .skill-UX ul li,
+  .skill-SE p,
+  .skill-Design p,
+  .skill-UX p {
+    font-size: 1.4em;
+  }
+  .skill-SE h3,
+  .skill-Design h3,
+  .skill-UX h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 2em;
+  }
+  .skill-SE img,
+  .skill-Design img,
+  .skill-UX img {
+    width: 120px;
+  }
+  footer {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer div p {
+    font-size: 1.2em;
+  }
+  footer div a img {
+    width: 50px;
+  }
+  .skills {
+    margin-top: -70px;
+  }
+}

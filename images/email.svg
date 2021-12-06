@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.208" height="44.208" viewBox="0 0 44.208 44.208">
+  <defs>
+    <filter id="Ellipse_3">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.973" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_18" data-name="Group 18" transform="translate(-172.014 -3836.905)">
+    <g data-type="innerShadowGroup">
+      <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="22.104" cy="22.104" r="22.104" transform="translate(172.014 3836.905)" fill="#005b83"/>
+      <g transform="matrix(1, 0, 0, 1, 172.01, 3836.9)" filter="url(#Ellipse_3)">
+        <circle id="Ellipse_3-3" data-name="Ellipse 3" cx="22.104" cy="22.104" r="22.104" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Icon_zocial-email" data-name="Icon zocial-email" d="M.072,21.243V5.737q0-.027.081-.511l9.126,7.807L.18,21.781a2.281,2.281,0,0,1-.108-.538ZM1.283,4.149a1.16,1.16,0,0,1,.458-.081H26.319a1.524,1.524,0,0,1,.485.081l-9.153,7.834-1.211.969-2.4,1.965-2.4-1.965-1.211-.969ZM1.31,22.831l9.18-8.8,3.553,2.88,3.553-2.88,9.18,8.8a1.293,1.293,0,0,1-.458.081H1.741a1.219,1.219,0,0,1-.431-.081Zm17.5-9.8,9.1-7.807a1.607,1.607,0,0,1,.081.511V21.243a2.063,2.063,0,0,1-.081.538Z" transform="translate(180.089 3845.519)" fill="#f5cb5c"/>
+  </g>
+</svg>
